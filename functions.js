@@ -8,4 +8,9 @@ function stringLength(string){
     }
 }
 
+function reverseString(string){
+    return string.split("").reverse().join("");
+}
+
 module.exports = stringLength;
+module.exports = reverseString;
